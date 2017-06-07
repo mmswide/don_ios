@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="ipad9_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="GamesViewController">
+            <connections>
+                <outlet property="view" destination="k9y-vl-EjN" id="YfY-eI-rSS"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="k9y-vl-EjN">
+            <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" image="backgrd.png" translatesAutoresizingMaskIntoConstraints="NO" id="AMw-u0-gOZ">
+                    <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="game_logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="iW5-WD-1l0">
+                    <rect key="frame" x="-15" y="169" width="678" height="855"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="iW5-WD-1l0" secondAttribute="height" multiplier="226:285" id="5Vb-2g-oOX"/>
+                    </constraints>
+                </imageView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4qK-jv-6ep" userLabel="UpperSide">
+                    <rect key="frame" x="548" y="0.0" width="180" height="642"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r3e-Ub-uYt" userLabel="Easy">
+                            <rect key="frame" x="16" y="83" width="148" height="148"/>
+                            <constraints>
+                                <constraint firstAttribute="width" secondItem="r3e-Ub-uYt" secondAttribute="height" multiplier="1:1" id="azd-gu-coJ"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="15"/>
+                            <state key="normal" backgroundImage="iPhoneGreen_easy.png">
+                                <color key="titleColor" red="0.19607843" green="0.30980393000000001" blue="0.52156866000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <state key="highlighted">
+                                <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="easyGameButtonAction:" destination="-1" eventType="touchUpInside" id="k4L-dc-E1D"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tBb-F0-dGA" userLabel="Medium">
+                            <rect key="frame" x="16" y="247" width="148" height="148"/>
+                            <constraints>
+                                <constraint firstAttribute="width" secondItem="tBb-F0-dGA" secondAttribute="height" multiplier="1:1" id="7PL-6y-U4S"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="15"/>
+                            <state key="normal" backgroundImage="ipadYello_medium.png">
+                                <color key="titleColor" red="0.19607843" green="0.30980393000000001" blue="0.52156866000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <state key="highlighted">
+                                <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="mediumGameButtonAction:" destination="-1" eventType="touchUpInside" id="QVq-5C-HTQ"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UrV-Ts-O1R" userLabel="Hard">
+                            <rect key="frame" x="16" y="411" width="148" height="148"/>
+                            <constraints>
+                                <constraint firstAttribute="width" secondItem="UrV-Ts-O1R" secondAttribute="height" multiplier="1:1" id="vzh-9c-DUw"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="15"/>
+                            <state key="normal" backgroundImage="iPhoneRed_hard.png">
+                                <color key="titleColor" red="0.19607843" green="0.30980393000000001" blue="0.52156866000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <state key="highlighted">
+                                <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="hardGameButtonAction:" destination="-1" eventType="touchUpInside" id="RyJ-Vk-RmE"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstItem="tBb-F0-dGA" firstAttribute="centerX" secondItem="4qK-jv-6ep" secondAttribute="centerX" id="3vS-sC-chC"/>
+                        <constraint firstItem="tBb-F0-dGA" firstAttribute="centerY" secondItem="4qK-jv-6ep" secondAttribute="centerY" id="BwO-jX-i5z"/>
+                        <constraint firstItem="r3e-Ub-uYt" firstAttribute="width" secondItem="4qK-jv-6ep" secondAttribute="height" multiplier="74:321" id="CPA-aD-t6i"/>
+                        <constraint firstItem="UrV-Ts-O1R" firstAttribute="width" secondItem="r3e-Ub-uYt" secondAttribute="width" id="Fnk-Yg-3fH"/>
+                        <constraint firstItem="tBb-F0-dGA" firstAttribute="top" secondItem="r3e-Ub-uYt" secondAttribute="bottom" constant="16" id="WAb-qM-BsK"/>
+                        <constraint firstItem="UrV-Ts-O1R" firstAttribute="top" secondItem="tBb-F0-dGA" secondAttribute="bottom" constant="16" id="X5z-qK-hiH"/>
+                        <constraint firstAttribute="width" secondItem="4qK-jv-6ep" secondAttribute="height" multiplier="30:107" id="bGa-Fe-Pdh"/>
+                        <constraint firstItem="r3e-Ub-uYt" firstAttribute="centerX" secondItem="4qK-jv-6ep" secondAttribute="centerX" id="c9C-dd-s0Z"/>
+                        <constraint firstItem="UrV-Ts-O1R" firstAttribute="centerX" secondItem="4qK-jv-6ep" secondAttribute="centerX" id="jwk-Tt-oVc"/>
+                        <constraint firstItem="tBb-F0-dGA" firstAttribute="width" secondItem="r3e-Ub-uYt" secondAttribute="width" id="slj-C0-L26"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="AMw-u0-gOZ" secondAttribute="bottom" id="1hj-Ma-1cL"/>
+                <constraint firstAttribute="trailing" secondItem="AMw-u0-gOZ" secondAttribute="trailing" id="6Ia-ck-WHe"/>
+                <constraint firstItem="AMw-u0-gOZ" firstAttribute="top" secondItem="k9y-vl-EjN" secondAttribute="top" id="CeH-SZ-KcI"/>
+                <constraint firstAttribute="bottom" secondItem="iW5-WD-1l0" secondAttribute="bottom" id="O0h-HX-zhK"/>
+                <constraint firstAttribute="trailing" secondItem="4qK-jv-6ep" secondAttribute="trailing" constant="40" id="bni-ZH-UBB"/>
+                <constraint firstItem="4qK-jv-6ep" firstAttribute="top" secondItem="k9y-vl-EjN" secondAttribute="top" id="ggK-bq-vP9"/>
+                <constraint firstItem="iW5-WD-1l0" firstAttribute="leading" secondItem="k9y-vl-EjN" secondAttribute="leading" constant="-15" id="rUZ-49-W2L"/>
+                <constraint firstItem="4qK-jv-6ep" firstAttribute="width" secondItem="k9y-vl-EjN" secondAttribute="height" multiplier="45:256" id="tkg-1n-ecc"/>
+                <constraint firstItem="AMw-u0-gOZ" firstAttribute="leading" secondItem="k9y-vl-EjN" secondAttribute="leading" id="yHt-RS-E21"/>
+                <constraint firstItem="iW5-WD-1l0" firstAttribute="width" secondItem="AMw-u0-gOZ" secondAttribute="height" multiplier="339:512" id="zpc-9c-hda"/>
+            </constraints>
+            <point key="canvasLocation" x="584" y="310"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="backgrd.png" width="768" height="1024"/>
+        <image name="game_logo.png" width="1190" height="1500"/>
+        <image name="iPhoneGreen_easy.png" width="198" height="198"/>
+        <image name="iPhoneRed_hard.png" width="198" height="198"/>
+        <image name="ipadYello_medium.png" width="198" height="198"/>
+    </resources>
+</document>

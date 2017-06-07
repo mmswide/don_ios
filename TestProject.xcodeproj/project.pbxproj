@@ -7,25 +7,156 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A17BB331D7F192000A6B315 /* APIClientManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A17BB321D7F192000A6B315 /* APIClientManager.m */; };
+		1A17BB371D7F214800A6B315 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A17BB361D7F214800A6B315 /* User.m */; };
+		1A17BB421D7F45CE00A6B315 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A17BB401D7F45CE00A6B315 /* LoginViewController.m */; };
+		1A17BB431D7F45CE00A6B315 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A17BB411D7F45CE00A6B315 /* LoginViewController.xib */; };
+		1A17BB471D7F45E000A6B315 /* SignupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A17BB451D7F45E000A6B315 /* SignupViewController.m */; };
+		1A17BB481D7F45E000A6B315 /* SignupViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A17BB461D7F45E000A6B315 /* SignupViewController.xib */; };
+		1A17BB4B1D7F4F2B00A6B315 /* UIColor+CreateMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A17BB4A1D7F4F2B00A6B315 /* UIColor+CreateMethods.m */; };
+		1A17BB4E1D7FA58600A6B315 /* LPNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A17BB4D1D7FA58600A6B315 /* LPNavigationController.m */; };
+		1A17BB531D7FB6DD00A6B315 /* ForgotPassViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A17BB511D7FB6DD00A6B315 /* ForgotPassViewController.m */; };
+		1A17BB541D7FB6DD00A6B315 /* ForgotPassViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A17BB521D7FB6DD00A6B315 /* ForgotPassViewController.xib */; };
+		1A17BB571D80969E00A6B315 /* NSString+emailValidation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A17BB561D80969E00A6B315 /* NSString+emailValidation.m */; };
+		1A43143B1D78621C00C46088 /* CategoryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A4314301D78621C00C46088 /* CategoryViewController.xib */; };
+		1A43143C1D78621C00C46088 /* CategoryViewController~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A4314311D78621C00C46088 /* CategoryViewController~ipad.xib */; };
+		1A43143D1D78621C00C46088 /* CultureViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A4314331D78621C00C46088 /* CultureViewController.xib */; };
+		1A43143E1D78621C00C46088 /* GamesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A4314351D78621C00C46088 /* GamesViewController.xib */; };
+		1A43143F1D78621C00C46088 /* GamesViewController~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A4314361D78621C00C46088 /* GamesViewController~ipad.xib */; };
+		1A4314401D78621C00C46088 /* TeachingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A4314381D78621C00C46088 /* TeachingViewController.xib */; };
+		1A4314411D78621C00C46088 /* QuizzesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A43143A1D78621C00C46088 /* QuizzesViewController.xib */; };
+		1A4314921D7869F100C46088 /* GamesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A4314911D7869F100C46088 /* GamesViewController.m */; };
+		1A4314BD1D78715700C46088 /* QuizzesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A4314BC1D78715700C46088 /* QuizzesViewController.m */; };
+		1A4314C01D78716800C46088 /* TeachingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A4314BF1D78716800C46088 /* TeachingViewController.m */; };
+		1A4314C31D78718D00C46088 /* CultureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A4314C21D78718D00C46088 /* CultureViewController.m */; };
+		1A4314C61D7871A600C46088 /* CategoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A4314C51D7871A600C46088 /* CategoryViewController.m */; };
+		1A4314CA1D7871F400C46088 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A4314C81D7871F400C46088 /* MainViewController.m */; };
+		1A4314CB1D7871F400C46088 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A4314C91D7871F400C46088 /* MainViewController.xib */; };
+		1A4314CD1D78B6D600C46088 /* TeachingViewController~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A4314CC1D78B6D600C46088 /* TeachingViewController~ipad.xib */; };
+		1A4314CF1D78C21100C46088 /* QuizzesViewController~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A4314CE1D78C21100C46088 /* QuizzesViewController~ipad.xib */; };
+		1A4314D11D79085600C46088 /* CultureViewController~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A4314D01D79085600C46088 /* CultureViewController~ipad.xib */; };
 		1A53DEF41D70B08100240D79 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A53DEF31D70B08100240D79 /* main.m */; };
 		1A53DEF71D70B08100240D79 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A53DEF61D70B08100240D79 /* AppDelegate.m */; };
-		1A53DEFA1D70B08100240D79 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A53DEF91D70B08100240D79 /* ViewController.m */; };
-		1A53DEFD1D70B08100240D79 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A53DEFB1D70B08100240D79 /* Main.storyboard */; };
 		1A53DEFF1D70B08100240D79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A53DEFE1D70B08100240D79 /* Assets.xcassets */; };
 		1A53DF021D70B08100240D79 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A53DF001D70B08100240D79 /* LaunchScreen.storyboard */; };
+		1A5B449D1D7EF1E500C8AD96 /* PinCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A5B449A1D7EF1E500C8AD96 /* PinCodeViewController.m */; };
+		1A5B449E1D7EF1E500C8AD96 /* PinCodeViewController~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A5B449B1D7EF1E500C8AD96 /* PinCodeViewController~ipad.xib */; };
+		1A5B449F1D7EF1E500C8AD96 /* PinCodeViewController~iphone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A5B449C1D7EF1E500C8AD96 /* PinCodeViewController~iphone.xib */; };
+		1A5B44A21D7EF23100C8AD96 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A5B44A11D7EF23100C8AD96 /* BaseViewController.m */; };
+		1AB303901ECB4B2D00B01C12 /* main_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AB303841ECB4B2D00B01C12 /* main_logo.png */; };
+		1AB303911ECB4B2D00B01C12 /* quiz_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AB303851ECB4B2D00B01C12 /* quiz_logo.png */; };
+		1AB303921ECB4B2D00B01C12 /* culture_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AB303861ECB4B2D00B01C12 /* culture_logo.png */; };
+		1AB303931ECB4B2D00B01C12 /* game_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AB303871ECB4B2D00B01C12 /* game_logo.png */; };
+		1AB303951ECB4B2D00B01C12 /* backgrd.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AB303891ECB4B2D00B01C12 /* backgrd.png */; };
+		1AB303961ECB4B2D00B01C12 /* category_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AB3038A1ECB4B2D00B01C12 /* category_logo.png */; };
+		1AB303971ECB4B2D00B01C12 /* category.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AB3038B1ECB4B2D00B01C12 /* category.png */; };
+		1AB303B21ECB4D1900B01C12 /* games-ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AB3039E1ECB4D1900B01C12 /* games-ipad.png */; };
+		1AB303B31ECB4D1900B01C12 /* learn-ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AB3039F1ECB4D1900B01C12 /* learn-ipad.png */; };
+		1AB303B41ECB4D1900B01C12 /* quizzes-ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AB303A01ECB4D1900B01C12 /* quizzes-ipad.png */; };
+		1AB303B51ECB4D1900B01C12 /* ipad_pro_audio.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AB303A21ECB4D1900B01C12 /* ipad_pro_audio.png */; };
+		1AB303B61ECB4D1900B01C12 /* ipad_pro_images.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AB303A31ECB4D1900B01C12 /* ipad_pro_images.png */; };
+		1AB303B71ECB4D1900B01C12 /* ipad_pro_video.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AB303A41ECB4D1900B01C12 /* ipad_pro_video.png */; };
+		1AB303B81ECB4D1900B01C12 /* ipadYello_medium.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AB303A61ECB4D1900B01C12 /* ipadYello_medium.png */; };
+		1AB303B91ECB4D1900B01C12 /* iPhoneGreen_easy.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AB303A71ECB4D1900B01C12 /* iPhoneGreen_easy.png */; };
+		1AB303BA1ECB4D1900B01C12 /* iPhoneRed_hard.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AB303A81ECB4D1900B01C12 /* iPhoneRed_hard.png */; };
+		1AB303BB1ECB4D1900B01C12 /* credits.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AB303AA1ECB4D1900B01C12 /* credits.png */; };
+		1AB303BC1ECB4D1900B01C12 /* culturenotes.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AB303AB1ECB4D1900B01C12 /* culturenotes.png */; };
+		1AB303BD1ECB4D1900B01C12 /* language.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AB303AC1ECB4D1900B01C12 /* language.png */; };
+		1AB303BE1ECB4D1900B01C12 /* search.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AB303AD1ECB4D1900B01C12 /* search.png */; };
+		1AB303BF1ECB4D1900B01C12 /* iPhoneGreen_listening.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AB303AF1ECB4D1900B01C12 /* iPhoneGreen_listening.png */; };
+		1AB303C01ECB4D1900B01C12 /* iPhoneRed_reading.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AB303B01ECB4D1900B01C12 /* iPhoneRed_reading.png */; };
+		1AB303C11ECB4D1900B01C12 /* iPhoneYello_speaking.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AB303B11ECB4D1900B01C12 /* iPhoneYello_speaking.png */; };
+		1AB303C51ECB603000B01C12 /* button1_learn.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AB303C21ECB603000B01C12 /* button1_learn.png */; };
+		1AB303C61ECB603000B01C12 /* button2_quizzes.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AB303C31ECB603000B01C12 /* button2_quizzes.png */; };
+		1AB303C71ECB603000B01C12 /* button3_games.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AB303C41ECB603000B01C12 /* button3_games.png */; };
+		C81F097657F16E7E66F73C2E /* libPods-TestProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A9F5788FF17FBD5A1BD956C /* libPods-TestProject.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1A17BB311D7F192000A6B315 /* APIClientManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIClientManager.h; sourceTree = "<group>"; };
+		1A17BB321D7F192000A6B315 /* APIClientManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APIClientManager.m; sourceTree = "<group>"; };
+		1A17BB351D7F214800A6B315 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		1A17BB361D7F214800A6B315 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		1A17BB3F1D7F45CE00A6B315 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		1A17BB401D7F45CE00A6B315 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		1A17BB411D7F45CE00A6B315 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		1A17BB441D7F45E000A6B315 /* SignupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignupViewController.h; sourceTree = "<group>"; };
+		1A17BB451D7F45E000A6B315 /* SignupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignupViewController.m; sourceTree = "<group>"; };
+		1A17BB461D7F45E000A6B315 /* SignupViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SignupViewController.xib; sourceTree = "<group>"; };
+		1A17BB491D7F4F2B00A6B315 /* UIColor+CreateMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+CreateMethods.h"; sourceTree = "<group>"; };
+		1A17BB4A1D7F4F2B00A6B315 /* UIColor+CreateMethods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+CreateMethods.m"; sourceTree = "<group>"; };
+		1A17BB4C1D7FA58600A6B315 /* LPNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPNavigationController.h; sourceTree = "<group>"; };
+		1A17BB4D1D7FA58600A6B315 /* LPNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPNavigationController.m; sourceTree = "<group>"; };
+		1A17BB501D7FB6DD00A6B315 /* ForgotPassViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForgotPassViewController.h; sourceTree = "<group>"; };
+		1A17BB511D7FB6DD00A6B315 /* ForgotPassViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForgotPassViewController.m; sourceTree = "<group>"; };
+		1A17BB521D7FB6DD00A6B315 /* ForgotPassViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ForgotPassViewController.xib; sourceTree = "<group>"; };
+		1A17BB551D80969E00A6B315 /* NSString+emailValidation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+emailValidation.h"; sourceTree = "<group>"; };
+		1A17BB561D80969E00A6B315 /* NSString+emailValidation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+emailValidation.m"; sourceTree = "<group>"; };
+		1A4314301D78621C00C46088 /* CategoryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CategoryViewController.xib; sourceTree = "<group>"; };
+		1A4314311D78621C00C46088 /* CategoryViewController~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "CategoryViewController~ipad.xib"; sourceTree = "<group>"; };
+		1A4314331D78621C00C46088 /* CultureViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CultureViewController.xib; sourceTree = "<group>"; };
+		1A4314351D78621C00C46088 /* GamesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GamesViewController.xib; sourceTree = "<group>"; };
+		1A4314361D78621C00C46088 /* GamesViewController~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "GamesViewController~ipad.xib"; sourceTree = "<group>"; };
+		1A4314381D78621C00C46088 /* TeachingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TeachingViewController.xib; sourceTree = "<group>"; };
+		1A43143A1D78621C00C46088 /* QuizzesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QuizzesViewController.xib; sourceTree = "<group>"; };
+		1A4314901D7869F100C46088 /* GamesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GamesViewController.h; sourceTree = "<group>"; };
+		1A4314911D7869F100C46088 /* GamesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GamesViewController.m; sourceTree = "<group>"; };
+		1A4314BB1D78715700C46088 /* QuizzesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuizzesViewController.h; sourceTree = "<group>"; };
+		1A4314BC1D78715700C46088 /* QuizzesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuizzesViewController.m; sourceTree = "<group>"; };
+		1A4314BE1D78716800C46088 /* TeachingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeachingViewController.h; sourceTree = "<group>"; };
+		1A4314BF1D78716800C46088 /* TeachingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeachingViewController.m; sourceTree = "<group>"; };
+		1A4314C11D78718D00C46088 /* CultureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CultureViewController.h; sourceTree = "<group>"; };
+		1A4314C21D78718D00C46088 /* CultureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CultureViewController.m; sourceTree = "<group>"; };
+		1A4314C41D7871A600C46088 /* CategoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoryViewController.h; sourceTree = "<group>"; };
+		1A4314C51D7871A600C46088 /* CategoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoryViewController.m; sourceTree = "<group>"; };
+		1A4314C71D7871F400C46088 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		1A4314C81D7871F400C46088 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		1A4314C91D7871F400C46088 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		1A4314CC1D78B6D600C46088 /* TeachingViewController~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "TeachingViewController~ipad.xib"; sourceTree = "<group>"; };
+		1A4314CE1D78C21100C46088 /* QuizzesViewController~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "QuizzesViewController~ipad.xib"; sourceTree = "<group>"; };
+		1A4314D01D79085600C46088 /* CultureViewController~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "CultureViewController~ipad.xib"; sourceTree = "<group>"; };
 		1A53DEEF1D70B08100240D79 /* TestProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A53DEF31D70B08100240D79 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1A53DEF51D70B08100240D79 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1A53DEF61D70B08100240D79 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		1A53DEF81D70B08100240D79 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		1A53DEF91D70B08100240D79 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		1A53DEFC1D70B08100240D79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1A53DEFE1D70B08100240D79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1A53DF011D70B08100240D79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1A53DF031D70B08100240D79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A5B44991D7EF1E500C8AD96 /* PinCodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PinCodeViewController.h; sourceTree = "<group>"; };
+		1A5B449A1D7EF1E500C8AD96 /* PinCodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PinCodeViewController.m; sourceTree = "<group>"; };
+		1A5B449B1D7EF1E500C8AD96 /* PinCodeViewController~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "PinCodeViewController~ipad.xib"; sourceTree = "<group>"; };
+		1A5B449C1D7EF1E500C8AD96 /* PinCodeViewController~iphone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "PinCodeViewController~iphone.xib"; sourceTree = "<group>"; };
+		1A5B44A01D7EF23100C8AD96 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		1A5B44A11D7EF23100C8AD96 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		1AB303841ECB4B2D00B01C12 /* main_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = main_logo.png; sourceTree = "<group>"; };
+		1AB303851ECB4B2D00B01C12 /* quiz_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = quiz_logo.png; sourceTree = "<group>"; };
+		1AB303861ECB4B2D00B01C12 /* culture_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = culture_logo.png; sourceTree = "<group>"; };
+		1AB303871ECB4B2D00B01C12 /* game_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = game_logo.png; sourceTree = "<group>"; };
+		1AB303891ECB4B2D00B01C12 /* backgrd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backgrd.png; sourceTree = "<group>"; };
+		1AB3038A1ECB4B2D00B01C12 /* category_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = category_logo.png; sourceTree = "<group>"; };
+		1AB3038B1ECB4B2D00B01C12 /* category.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = category.png; sourceTree = "<group>"; };
+		1AB3039E1ECB4D1900B01C12 /* games-ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "games-ipad.png"; sourceTree = "<group>"; };
+		1AB3039F1ECB4D1900B01C12 /* learn-ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "learn-ipad.png"; sourceTree = "<group>"; };
+		1AB303A01ECB4D1900B01C12 /* quizzes-ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "quizzes-ipad.png"; sourceTree = "<group>"; };
+		1AB303A21ECB4D1900B01C12 /* ipad_pro_audio.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ipad_pro_audio.png; sourceTree = "<group>"; };
+		1AB303A31ECB4D1900B01C12 /* ipad_pro_images.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ipad_pro_images.png; sourceTree = "<group>"; };
+		1AB303A41ECB4D1900B01C12 /* ipad_pro_video.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ipad_pro_video.png; sourceTree = "<group>"; };
+		1AB303A61ECB4D1900B01C12 /* ipadYello_medium.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ipadYello_medium.png; sourceTree = "<group>"; };
+		1AB303A71ECB4D1900B01C12 /* iPhoneGreen_easy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPhoneGreen_easy.png; sourceTree = "<group>"; };
+		1AB303A81ECB4D1900B01C12 /* iPhoneRed_hard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPhoneRed_hard.png; sourceTree = "<group>"; };
+		1AB303AA1ECB4D1900B01C12 /* credits.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = credits.png; sourceTree = "<group>"; };
+		1AB303AB1ECB4D1900B01C12 /* culturenotes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = culturenotes.png; sourceTree = "<group>"; };
+		1AB303AC1ECB4D1900B01C12 /* language.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = language.png; sourceTree = "<group>"; };
+		1AB303AD1ECB4D1900B01C12 /* search.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = search.png; sourceTree = "<group>"; };
+		1AB303AF1ECB4D1900B01C12 /* iPhoneGreen_listening.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPhoneGreen_listening.png; sourceTree = "<group>"; };
+		1AB303B01ECB4D1900B01C12 /* iPhoneRed_reading.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPhoneRed_reading.png; sourceTree = "<group>"; };
+		1AB303B11ECB4D1900B01C12 /* iPhoneYello_speaking.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPhoneYello_speaking.png; sourceTree = "<group>"; };
+		1AB303C21ECB603000B01C12 /* button1_learn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button1_learn.png; sourceTree = "<group>"; };
+		1AB303C31ECB603000B01C12 /* button2_quizzes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button2_quizzes.png; sourceTree = "<group>"; };
+		1AB303C41ECB603000B01C12 /* button3_games.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button3_games.png; sourceTree = "<group>"; };
+		3A9F5788FF17FBD5A1BD956C /* libPods-TestProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC2F60A337C4FA3D0C17E7EC /* Pods-TestProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestProject/Pods-TestProject.debug.xcconfig"; sourceTree = "<group>"; };
+		CE61FC67497983F1508568DF /* Pods-TestProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestProject/Pods-TestProject.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +164,125 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C81F097657F16E7E66F73C2E /* libPods-TestProject.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1A17BB301D7F18CF00A6B315 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				1A17BB311D7F192000A6B315 /* APIClientManager.h */,
+				1A17BB321D7F192000A6B315 /* APIClientManager.m */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		1A17BB341D7F213400A6B315 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				1A17BB351D7F214800A6B315 /* User.h */,
+				1A17BB361D7F214800A6B315 /* User.m */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		1A17BB381D7F459000A6B315 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				1A17BB3F1D7F45CE00A6B315 /* LoginViewController.h */,
+				1A17BB401D7F45CE00A6B315 /* LoginViewController.m */,
+				1A17BB411D7F45CE00A6B315 /* LoginViewController.xib */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		1A17BB391D7F459600A6B315 /* Signup */ = {
+			isa = PBXGroup;
+			children = (
+				1A17BB441D7F45E000A6B315 /* SignupViewController.h */,
+				1A17BB451D7F45E000A6B315 /* SignupViewController.m */,
+				1A17BB461D7F45E000A6B315 /* SignupViewController.xib */,
+			);
+			path = Signup;
+			sourceTree = "<group>";
+		};
+		1A17BB4F1D7FB67B00A6B315 /* ForgetPassword */ = {
+			isa = PBXGroup;
+			children = (
+				1A17BB501D7FB6DD00A6B315 /* ForgotPassViewController.h */,
+				1A17BB511D7FB6DD00A6B315 /* ForgotPassViewController.m */,
+				1A17BB521D7FB6DD00A6B315 /* ForgotPassViewController.xib */,
+			);
+			path = ForgetPassword;
+			sourceTree = "<group>";
+		};
+		1A43142E1D78621C00C46088 /* xib */ = {
+			isa = PBXGroup;
+			children = (
+				1A43142F1D78621C00C46088 /* Category Page */,
+				1A4314321D78621C00C46088 /* Culture Notes */,
+				1A4314341D78621C00C46088 /* Games */,
+				1A4314371D78621C00C46088 /* Main Menu */,
+				1A4314391D78621C00C46088 /* Quizzes */,
+			);
+			path = xib;
+			sourceTree = "<group>";
+		};
+		1A43142F1D78621C00C46088 /* Category Page */ = {
+			isa = PBXGroup;
+			children = (
+				1A4314301D78621C00C46088 /* CategoryViewController.xib */,
+				1A4314311D78621C00C46088 /* CategoryViewController~ipad.xib */,
+			);
+			path = "Category Page";
+			sourceTree = "<group>";
+		};
+		1A4314321D78621C00C46088 /* Culture Notes */ = {
+			isa = PBXGroup;
+			children = (
+				1A4314D01D79085600C46088 /* CultureViewController~ipad.xib */,
+				1A4314331D78621C00C46088 /* CultureViewController.xib */,
+			);
+			path = "Culture Notes";
+			sourceTree = "<group>";
+		};
+		1A4314341D78621C00C46088 /* Games */ = {
+			isa = PBXGroup;
+			children = (
+				1A4314351D78621C00C46088 /* GamesViewController.xib */,
+				1A4314361D78621C00C46088 /* GamesViewController~ipad.xib */,
+			);
+			path = Games;
+			sourceTree = "<group>";
+		};
+		1A4314371D78621C00C46088 /* Main Menu */ = {
+			isa = PBXGroup;
+			children = (
+				1A4314CC1D78B6D600C46088 /* TeachingViewController~ipad.xib */,
+				1A4314381D78621C00C46088 /* TeachingViewController.xib */,
+			);
+			path = "Main Menu";
+			sourceTree = "<group>";
+		};
+		1A4314391D78621C00C46088 /* Quizzes */ = {
+			isa = PBXGroup;
+			children = (
+				1A4314CE1D78C21100C46088 /* QuizzesViewController~ipad.xib */,
+				1A43143A1D78621C00C46088 /* QuizzesViewController.xib */,
+			);
+			path = Quizzes;
+			sourceTree = "<group>";
+		};
 		1A53DEE61D70B08100240D79 = {
 			isa = PBXGroup;
 			children = (
 				1A53DEF11D70B08100240D79 /* TestProject */,
 				1A53DEF01D70B08100240D79 /* Products */,
+				73C3B36473520B1A6F8D0611 /* Pods */,
+				273B1EC19EBF8327FC583106 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,14 +297,43 @@
 		1A53DEF11D70B08100240D79 /* TestProject */ = {
 			isa = PBXGroup;
 			children = (
+				1A17BB491D7F4F2B00A6B315 /* UIColor+CreateMethods.h */,
+				1A17BB4A1D7F4F2B00A6B315 /* UIColor+CreateMethods.m */,
+				1A17BB551D80969E00A6B315 /* NSString+emailValidation.h */,
+				1A17BB561D80969E00A6B315 /* NSString+emailValidation.m */,
+				1A17BB4F1D7FB67B00A6B315 /* ForgetPassword */,
+				1A17BB391D7F459600A6B315 /* Signup */,
+				1A17BB381D7F459000A6B315 /* Login */,
+				1A17BB341D7F213400A6B315 /* User */,
+				1A17BB301D7F18CF00A6B315 /* Networking */,
+				1A43142E1D78621C00C46088 /* xib */,
 				1A53DEF51D70B08100240D79 /* AppDelegate.h */,
 				1A53DEF61D70B08100240D79 /* AppDelegate.m */,
-				1A53DEF81D70B08100240D79 /* ViewController.h */,
-				1A53DEF91D70B08100240D79 /* ViewController.m */,
-				1A53DEFB1D70B08100240D79 /* Main.storyboard */,
+				1A17BB4C1D7FA58600A6B315 /* LPNavigationController.h */,
+				1A17BB4D1D7FA58600A6B315 /* LPNavigationController.m */,
+				1A4314C71D7871F400C46088 /* MainViewController.h */,
+				1A4314C81D7871F400C46088 /* MainViewController.m */,
+				1A4314C91D7871F400C46088 /* MainViewController.xib */,
+				1A4314901D7869F100C46088 /* GamesViewController.h */,
+				1A4314911D7869F100C46088 /* GamesViewController.m */,
+				1A4314BB1D78715700C46088 /* QuizzesViewController.h */,
+				1A4314BC1D78715700C46088 /* QuizzesViewController.m */,
+				1A4314BE1D78716800C46088 /* TeachingViewController.h */,
+				1A4314BF1D78716800C46088 /* TeachingViewController.m */,
+				1A4314C11D78718D00C46088 /* CultureViewController.h */,
+				1A4314C21D78718D00C46088 /* CultureViewController.m */,
+				1A4314C41D7871A600C46088 /* CategoryViewController.h */,
+				1A4314C51D7871A600C46088 /* CategoryViewController.m */,
+				1A5B44991D7EF1E500C8AD96 /* PinCodeViewController.h */,
+				1A5B449A1D7EF1E500C8AD96 /* PinCodeViewController.m */,
+				1A5B44A01D7EF23100C8AD96 /* BaseViewController.h */,
+				1A5B44A11D7EF23100C8AD96 /* BaseViewController.m */,
+				1A5B449B1D7EF1E500C8AD96 /* PinCodeViewController~ipad.xib */,
+				1A5B449C1D7EF1E500C8AD96 /* PinCodeViewController~iphone.xib */,
 				1A53DEFE1D70B08100240D79 /* Assets.xcassets */,
 				1A53DF001D70B08100240D79 /* LaunchScreen.storyboard */,
 				1A53DF031D70B08100240D79 /* Info.plist */,
+				1A53DF0D1D70B1BC00240D79 /* Resources */,
 				1A53DEF21D70B08100240D79 /* Supporting Files */,
 			);
 			path = TestProject;
@@ -79,6 +347,104 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		1A53DF0D1D70B1BC00240D79 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1AB3039C1ECB4D1900B01C12 /* Buttons */,
+				1AB303841ECB4B2D00B01C12 /* main_logo.png */,
+				1AB303851ECB4B2D00B01C12 /* quiz_logo.png */,
+				1AB303861ECB4B2D00B01C12 /* culture_logo.png */,
+				1AB303871ECB4B2D00B01C12 /* game_logo.png */,
+				1AB303891ECB4B2D00B01C12 /* backgrd.png */,
+				1AB3038A1ECB4B2D00B01C12 /* category_logo.png */,
+				1AB3038B1ECB4B2D00B01C12 /* category.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		1AB3039C1ECB4D1900B01C12 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				1AB3039D1ECB4D1900B01C12 /* Category Page */,
+				1AB303A11ECB4D1900B01C12 /* Culture Notes */,
+				1AB303A51ECB4D1900B01C12 /* Games Page */,
+				1AB303A91ECB4D1900B01C12 /* Main Menu */,
+				1AB303AE1ECB4D1900B01C12 /* Quizzes Page */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		1AB3039D1ECB4D1900B01C12 /* Category Page */ = {
+			isa = PBXGroup;
+			children = (
+				1AB303C21ECB603000B01C12 /* button1_learn.png */,
+				1AB303C31ECB603000B01C12 /* button2_quizzes.png */,
+				1AB303C41ECB603000B01C12 /* button3_games.png */,
+				1AB3039E1ECB4D1900B01C12 /* games-ipad.png */,
+				1AB3039F1ECB4D1900B01C12 /* learn-ipad.png */,
+				1AB303A01ECB4D1900B01C12 /* quizzes-ipad.png */,
+			);
+			path = "Category Page";
+			sourceTree = "<group>";
+		};
+		1AB303A11ECB4D1900B01C12 /* Culture Notes */ = {
+			isa = PBXGroup;
+			children = (
+				1AB303A21ECB4D1900B01C12 /* ipad_pro_audio.png */,
+				1AB303A31ECB4D1900B01C12 /* ipad_pro_images.png */,
+				1AB303A41ECB4D1900B01C12 /* ipad_pro_video.png */,
+			);
+			path = "Culture Notes";
+			sourceTree = "<group>";
+		};
+		1AB303A51ECB4D1900B01C12 /* Games Page */ = {
+			isa = PBXGroup;
+			children = (
+				1AB303A61ECB4D1900B01C12 /* ipadYello_medium.png */,
+				1AB303A71ECB4D1900B01C12 /* iPhoneGreen_easy.png */,
+				1AB303A81ECB4D1900B01C12 /* iPhoneRed_hard.png */,
+			);
+			path = "Games Page";
+			sourceTree = "<group>";
+		};
+		1AB303A91ECB4D1900B01C12 /* Main Menu */ = {
+			isa = PBXGroup;
+			children = (
+				1AB303AA1ECB4D1900B01C12 /* credits.png */,
+				1AB303AB1ECB4D1900B01C12 /* culturenotes.png */,
+				1AB303AC1ECB4D1900B01C12 /* language.png */,
+				1AB303AD1ECB4D1900B01C12 /* search.png */,
+			);
+			path = "Main Menu";
+			sourceTree = "<group>";
+		};
+		1AB303AE1ECB4D1900B01C12 /* Quizzes Page */ = {
+			isa = PBXGroup;
+			children = (
+				1AB303AF1ECB4D1900B01C12 /* iPhoneGreen_listening.png */,
+				1AB303B01ECB4D1900B01C12 /* iPhoneRed_reading.png */,
+				1AB303B11ECB4D1900B01C12 /* iPhoneYello_speaking.png */,
+			);
+			path = "Quizzes Page";
+			sourceTree = "<group>";
+		};
+		273B1EC19EBF8327FC583106 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3A9F5788FF17FBD5A1BD956C /* libPods-TestProject.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		73C3B36473520B1A6F8D0611 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CC2F60A337C4FA3D0C17E7EC /* Pods-TestProject.debug.xcconfig */,
+				CE61FC67497983F1508568DF /* Pods-TestProject.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +452,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1A53DF061D70B08100240D79 /* Build configuration list for PBXNativeTarget "TestProject" */;
 			buildPhases = (
+				3E2084A44CF015BB78098101 /* [CP] Check Pods Manifest.lock */,
 				1A53DEEB1D70B08100240D79 /* Sources */,
 				1A53DEEC1D70B08100240D79 /* Frameworks */,
 				1A53DEED1D70B08100240D79 /* Resources */,
+				C5A08095A6A0398B28BF3181 /* [CP] Embed Pods Frameworks */,
+				5E296982F4E62CE154CECB07 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -136,36 +505,132 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A43143C1D78621C00C46088 /* CategoryViewController~ipad.xib in Resources */,
+				1AB303931ECB4B2D00B01C12 /* game_logo.png in Resources */,
+				1AB303B61ECB4D1900B01C12 /* ipad_pro_images.png in Resources */,
+				1A4314CB1D7871F400C46088 /* MainViewController.xib in Resources */,
+				1A5B449E1D7EF1E500C8AD96 /* PinCodeViewController~ipad.xib in Resources */,
+				1AB303951ECB4B2D00B01C12 /* backgrd.png in Resources */,
+				1A4314CF1D78C21100C46088 /* QuizzesViewController~ipad.xib in Resources */,
+				1AB303BE1ECB4D1900B01C12 /* search.png in Resources */,
+				1A17BB481D7F45E000A6B315 /* SignupViewController.xib in Resources */,
+				1AB303BD1ECB4D1900B01C12 /* language.png in Resources */,
+				1A4314D11D79085600C46088 /* CultureViewController~ipad.xib in Resources */,
+				1AB303C51ECB603000B01C12 /* button1_learn.png in Resources */,
+				1AB303C11ECB4D1900B01C12 /* iPhoneYello_speaking.png in Resources */,
+				1A43143F1D78621C00C46088 /* GamesViewController~ipad.xib in Resources */,
+				1AB303921ECB4B2D00B01C12 /* culture_logo.png in Resources */,
+				1A4314411D78621C00C46088 /* QuizzesViewController.xib in Resources */,
+				1AB303BC1ECB4D1900B01C12 /* culturenotes.png in Resources */,
+				1A17BB541D7FB6DD00A6B315 /* ForgotPassViewController.xib in Resources */,
+				1A43143E1D78621C00C46088 /* GamesViewController.xib in Resources */,
+				1AB303911ECB4B2D00B01C12 /* quiz_logo.png in Resources */,
+				1AB303B91ECB4D1900B01C12 /* iPhoneGreen_easy.png in Resources */,
+				1A4314CD1D78B6D600C46088 /* TeachingViewController~ipad.xib in Resources */,
+				1A5B449F1D7EF1E500C8AD96 /* PinCodeViewController~iphone.xib in Resources */,
+				1A4314401D78621C00C46088 /* TeachingViewController.xib in Resources */,
+				1A17BB431D7F45CE00A6B315 /* LoginViewController.xib in Resources */,
 				1A53DF021D70B08100240D79 /* LaunchScreen.storyboard in Resources */,
+				1AB303B81ECB4D1900B01C12 /* ipadYello_medium.png in Resources */,
+				1AB303B51ECB4D1900B01C12 /* ipad_pro_audio.png in Resources */,
+				1AB303B21ECB4D1900B01C12 /* games-ipad.png in Resources */,
+				1AB303C01ECB4D1900B01C12 /* iPhoneRed_reading.png in Resources */,
+				1AB303B41ECB4D1900B01C12 /* quizzes-ipad.png in Resources */,
+				1AB303BB1ECB4D1900B01C12 /* credits.png in Resources */,
+				1AB303BA1ECB4D1900B01C12 /* iPhoneRed_hard.png in Resources */,
+				1AB303971ECB4B2D00B01C12 /* category.png in Resources */,
 				1A53DEFF1D70B08100240D79 /* Assets.xcassets in Resources */,
-				1A53DEFD1D70B08100240D79 /* Main.storyboard in Resources */,
+				1AB303961ECB4B2D00B01C12 /* category_logo.png in Resources */,
+				1AB303BF1ECB4D1900B01C12 /* iPhoneGreen_listening.png in Resources */,
+				1A43143D1D78621C00C46088 /* CultureViewController.xib in Resources */,
+				1AB303C61ECB603000B01C12 /* button2_quizzes.png in Resources */,
+				1A43143B1D78621C00C46088 /* CategoryViewController.xib in Resources */,
+				1AB303B71ECB4D1900B01C12 /* ipad_pro_video.png in Resources */,
+				1AB303B31ECB4D1900B01C12 /* learn-ipad.png in Resources */,
+				1AB303901ECB4B2D00B01C12 /* main_logo.png in Resources */,
+				1AB303C71ECB603000B01C12 /* button3_games.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3E2084A44CF015BB78098101 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5E296982F4E62CE154CECB07 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestProject/Pods-TestProject-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C5A08095A6A0398B28BF3181 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestProject/Pods-TestProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1A53DEEB1D70B08100240D79 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1A53DEFA1D70B08100240D79 /* ViewController.m in Sources */,
+				1A4314BD1D78715700C46088 /* QuizzesViewController.m in Sources */,
+				1A5B44A21D7EF23100C8AD96 /* BaseViewController.m in Sources */,
+				1A17BB421D7F45CE00A6B315 /* LoginViewController.m in Sources */,
+				1A17BB4E1D7FA58600A6B315 /* LPNavigationController.m in Sources */,
+				1A4314921D7869F100C46088 /* GamesViewController.m in Sources */,
 				1A53DEF71D70B08100240D79 /* AppDelegate.m in Sources */,
+				1A4314CA1D7871F400C46088 /* MainViewController.m in Sources */,
+				1A4314C31D78718D00C46088 /* CultureViewController.m in Sources */,
+				1A4314C61D7871A600C46088 /* CategoryViewController.m in Sources */,
+				1A17BB571D80969E00A6B315 /* NSString+emailValidation.m in Sources */,
+				1A4314C01D78716800C46088 /* TeachingViewController.m in Sources */,
+				1A17BB371D7F214800A6B315 /* User.m in Sources */,
+				1A17BB331D7F192000A6B315 /* APIClientManager.m in Sources */,
 				1A53DEF41D70B08100240D79 /* main.m in Sources */,
+				1A17BB471D7F45E000A6B315 /* SignupViewController.m in Sources */,
+				1A5B449D1D7EF1E500C8AD96 /* PinCodeViewController.m in Sources */,
+				1A17BB531D7FB6DD00A6B315 /* ForgotPassViewController.m in Sources */,
+				1A17BB4B1D7F4F2B00A6B315 /* UIColor+CreateMethods.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		1A53DEFB1D70B08100240D79 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1A53DEFC1D70B08100240D79 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		1A53DF001D70B08100240D79 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -263,6 +728,7 @@
 		};
 		1A53DF071D70B08100240D79 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC2F60A337C4FA3D0C17E7EC /* Pods-TestProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TestProject/Info.plist;
@@ -274,6 +740,7 @@
 		};
 		1A53DF081D70B08100240D79 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE61FC67497983F1508568DF /* Pods-TestProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TestProject/Info.plist;
@@ -302,6 +769,7 @@
 				1A53DF081D70B08100240D79 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

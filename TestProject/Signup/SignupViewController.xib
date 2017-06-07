@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SignupViewController">
+            <connections>
+                <outlet property="btnSignup" destination="bpm-7K-57H" id="emy-sM-vNA"/>
+                <outlet property="txtEmail" destination="dVH-aE-Z9B" id="fjw-qF-KbU"/>
+                <outlet property="txtPassword" destination="mdQ-bL-t8w" id="my3-3D-1IP"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y2e-pW-o5B">
+                    <rect key="frame" x="168" y="150" width="264" height="16"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="13"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="We just need to get a few details from you to get you signed up to the service." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NTm-gI-Qre">
+                    <rect key="frame" x="168" y="168" width="264" height="32"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dVH-aE-Z9B">
+                    <rect key="frame" x="168" y="227" width="264" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="v1Y-Cj-Luo"/>
+                        <constraint firstAttribute="width" constant="240" id="yeL-qn-hnl"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <textInputTraits key="textInputTraits" autocorrectionType="no" keyboardType="emailAddress"/>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="yeL-qn-hnl"/>
+                        </mask>
+                    </variation>
+                </textField>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="mdQ-bL-t8w">
+                    <rect key="frame" x="168" y="287" width="264" height="40"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <textInputTraits key="textInputTraits" autocorrectionType="no" secureTextEntry="YES"/>
+                </textField>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bpm-7K-57H">
+                    <rect key="frame" x="168" y="360" width="264" height="40"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <state key="normal" title="Sign Up">
+                        <color key="titleColor" red="0.31764705879999999" green="0.58039215690000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="signupAction:" destination="-1" eventType="touchUpInside" id="gRF-6G-FDe"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="REGISTER FOR AN ACCOUNT" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Tq-QA-8na">
+                    <rect key="frame" x="185" y="112" width="230" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="0.31764705879999999" green="0.58039215690000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="1Tq-QA-8na" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="3lX-Hj-oah"/>
+                <constraint firstItem="NTm-gI-Qre" firstAttribute="width" secondItem="dVH-aE-Z9B" secondAttribute="width" id="7A6-2u-cO8"/>
+                <constraint firstItem="NTm-gI-Qre" firstAttribute="top" secondItem="Y2e-pW-o5B" secondAttribute="bottom" constant="2" id="8cw-FJ-Kx3"/>
+                <constraint firstItem="NTm-gI-Qre" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="8yf-ca-3bU"/>
+                <constraint firstItem="Y2e-pW-o5B" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="9Vt-jg-qYE"/>
+                <constraint firstAttribute="bottom" secondItem="1Tq-QA-8na" secondAttribute="bottom" multiplier="9:2" id="C4I-zp-okm"/>
+                <constraint firstAttribute="bottom" secondItem="bpm-7K-57H" secondAttribute="bottom" multiplier="9:6" id="HyT-1D-HOj"/>
+                <constraint firstItem="mdQ-bL-t8w" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="NCY-7l-DAA"/>
+                <constraint firstAttribute="bottom" secondItem="dVH-aE-Z9B" secondAttribute="bottom" multiplier="9:4" id="PSk-9J-gjs"/>
+                <constraint firstItem="mdQ-bL-t8w" firstAttribute="height" secondItem="dVH-aE-Z9B" secondAttribute="height" id="QlF-BN-QrN"/>
+                <constraint firstItem="dVH-aE-Z9B" firstAttribute="width" secondItem="i5M-Pr-FkT" secondAttribute="height" multiplier="2.2:5" id="SgQ-It-Pi2"/>
+                <constraint firstAttribute="bottom" secondItem="NTm-gI-Qre" secondAttribute="bottom" multiplier="9:3" id="Stc-eK-aEP"/>
+                <constraint firstItem="bpm-7K-57H" firstAttribute="width" secondItem="dVH-aE-Z9B" secondAttribute="width" id="URD-XP-nfW"/>
+                <constraint firstItem="mdQ-bL-t8w" firstAttribute="width" secondItem="dVH-aE-Z9B" secondAttribute="width" id="WMr-94-dIm"/>
+                <constraint firstItem="Y2e-pW-o5B" firstAttribute="width" secondItem="dVH-aE-Z9B" secondAttribute="width" id="Z2p-Sv-4f9"/>
+                <constraint firstItem="bpm-7K-57H" firstAttribute="height" secondItem="dVH-aE-Z9B" secondAttribute="height" id="edX-DI-BRF"/>
+                <constraint firstItem="bpm-7K-57H" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="hB6-7V-RJ3"/>
+                <constraint firstAttribute="bottom" secondItem="mdQ-bL-t8w" secondAttribute="bottom" multiplier="9:4.9" id="uqT-3a-gIR"/>
+                <constraint firstItem="dVH-aE-Z9B" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="v5m-dX-5oy"/>
+                <constraint firstItem="dVH-aE-Z9B" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="196" id="zte-0J-i2G"/>
+            </constraints>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="zte-0J-i2G"/>
+                </mask>
+            </variation>
+        </view>
+    </objects>
+</document>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MainViewController">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ehG-5j-hOa">
+                    <rect key="frame" x="156" y="72" width="63" height="30"/>
+                    <state key="normal" title="Category"/>
+                    <connections>
+                        <action selector="goCategoryVC:" destination="-1" eventType="touchUpInside" id="hgQ-d1-0qO"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="peZ-8X-gbC">
+                    <rect key="frame" x="162.5" y="134" width="50" height="30"/>
+                    <state key="normal" title="Culture"/>
+                    <connections>
+                        <action selector="goCultureVC:" destination="-1" eventType="touchUpInside" id="Wrh-nD-Mma"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RcA-ch-RH9">
+                    <rect key="frame" x="156" y="248" width="63" height="30"/>
+                    <state key="normal" title="Teaching"/>
+                    <connections>
+                        <action selector="goTeachingVC:" destination="-1" eventType="touchUpInside" id="BzL-y3-eta"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HXe-mv-Rhs">
+                    <rect key="frame" x="160" y="307" width="55" height="30"/>
+                    <state key="normal" title="Quizzes"/>
+                    <connections>
+                        <action selector="goQuizzesVC:" destination="-1" eventType="touchUpInside" id="9Bn-4E-OFM"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CL9-nh-3NU">
+                    <rect key="frame" x="163.5" y="355" width="48" height="30"/>
+                    <state key="normal" title="Logout"/>
+                    <connections>
+                        <action selector="logoutAction:" destination="-1" eventType="touchUpInside" id="PD5-p3-I6J"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lnx-av-NHC">
+                    <rect key="frame" x="163.5" y="189" width="48" height="30"/>
+                    <state key="normal" title="Games"/>
+                    <connections>
+                        <action selector="goGamesVC:" destination="-1" eventType="touchUpInside" id="697-gY-Kyh"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="HXe-mv-Rhs" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="1c3-Lr-7TQ"/>
+                <constraint firstItem="CL9-nh-3NU" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="2Gm-R5-QH0"/>
+                <constraint firstItem="CL9-nh-3NU" firstAttribute="top" secondItem="HXe-mv-Rhs" secondAttribute="bottom" constant="18" id="9lD-Eg-2rn"/>
+                <constraint firstItem="ehG-5j-hOa" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="72" id="D9g-C1-kQR"/>
+                <constraint firstItem="RcA-ch-RH9" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="GRw-DH-vbI"/>
+                <constraint firstItem="peZ-8X-gbC" firstAttribute="top" secondItem="ehG-5j-hOa" secondAttribute="bottom" constant="32" id="J4d-Zr-y10"/>
+                <constraint firstItem="RcA-ch-RH9" firstAttribute="top" secondItem="lnx-av-NHC" secondAttribute="bottom" constant="29" id="MHd-Bh-DRm"/>
+                <constraint firstItem="ehG-5j-hOa" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="cWU-ho-BPd"/>
+                <constraint firstItem="peZ-8X-gbC" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="gbW-ey-JXp"/>
+                <constraint firstItem="lnx-av-NHC" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="lpD-AS-5fS"/>
+                <constraint firstItem="HXe-mv-Rhs" firstAttribute="top" secondItem="RcA-ch-RH9" secondAttribute="bottom" constant="29" id="mwf-zm-tLn"/>
+                <constraint firstItem="lnx-av-NHC" firstAttribute="top" secondItem="peZ-8X-gbC" secondAttribute="bottom" constant="25" id="qyC-7Y-cN6"/>
+            </constraints>
+        </view>
+    </objects>
+</document>

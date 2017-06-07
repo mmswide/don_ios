@@ -7,6 +7,11 @@
 //
 
 #import "AppDelegate.h"
+#import "MainViewController.h"
+#import "PinCodeViewController.h"
+#import <UIKit+AFNetworking.h>
+#import "LoginViewController.h"
+#import "LPNavigationController.h"
 
 @interface AppDelegate ()
 
@@ -16,8 +21,60 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    
+    NSURLCache *URLCache = [[NSURLCache alloc] initWithMemoryCapacity:4 * 1024 * 1024 diskCapacity:20 * 1024 * 1024 diskPath:nil];
+    [NSURLCache setSharedURLCache:URLCache];
+    
+    [[AFNetworkActivityIndicatorManager sharedManager] setEnabled:YES];
+    
     // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    
+    // create an instance of the view controller you want to be displayed first
+    MainViewController *mainVC = [[MainViewController alloc] initWithNibName:@"MainViewController" bundle:nil];
+    UINavigationController *navigation = [[UINavigationController alloc]initWithRootViewController:mainVC];
+    
+    // set it as the root view controller of the application's window
+    [self.window setRootViewController:navigation];
+    
+    self.window.backgroundColor = [UIColor whiteColor];
+    [self.window makeKeyAndVisible];
+//    [self presentPinCodeLockIfNeeded];
+    
+//    [self showLoginView];
+    
     return YES;
+}
+
+#pragma mark -
+#pragma mark pin code lock
+
+- (void) presentPinCodeLockIfNeeded
+{
+    if ([PinCodeViewController applicationIsLocked])
+    {
+        PinCodeViewController *controller = [PinCodeViewController new];
+        [self.window.rootViewController presentViewController:controller animated:NO completion:nil];
+    }
+}
+
+#pragma mark -
+#pragma mark - Show Login View Controller
+- (void) showLoginView {
+    if ([LoginViewController applicationIsLocked])
+    {
+        LoginViewController *controller = [LoginViewController new];
+        LPNavigationController *navController = [[LPNavigationController alloc]initWithRootViewController:controller];
+        [self.window.rootViewController presentViewController:navController animated:NO completion:nil];
+    }
+}
+- (void)logoutAuth {
+    NSUserDefaults *userDefaults = [NSUserDefaults standardUserDefaults];
+    [userDefaults setBool: NO forKey: @"Application Unlocked"];
+    [userDefaults synchronize];
+    LoginViewController *controller = [LoginViewController new];
+    LPNavigationController *navController = [[LPNavigationController alloc]initWithRootViewController:controller];
+    [self.window.rootViewController presentViewController:navController animated:NO completion:nil];
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {

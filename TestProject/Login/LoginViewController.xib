@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LoginViewController">
+            <connections>
+                <outlet property="btnForgotPass" destination="oQJ-56-kzA" id="kIJ-85-qDe"/>
+                <outlet property="btnLogin" destination="LEK-JV-5RU" id="hgN-Tj-FjO"/>
+                <outlet property="btnSignup" destination="vkV-Gk-osV" id="HvU-Z0-WT3"/>
+                <outlet property="txtEmail" destination="b5D-gA-3LE" id="n5e-sL-yc2"/>
+                <outlet property="txtPassword" destination="gl3-LO-E79" id="Y19-xa-tRA"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8PJ-lJ-UbJ">
+                    <rect key="frame" x="234" y="94" width="133" height="39"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="b5D-gA-3LE">
+                    <rect key="frame" x="168" y="240" width="264" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="240" id="1G7-DO-jnC"/>
+                        <constraint firstAttribute="height" constant="40" id="tCa-qH-u6K"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <textInputTraits key="textInputTraits" autocorrectionType="no" keyboardType="emailAddress"/>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="1G7-DO-jnC"/>
+                        </mask>
+                    </variation>
+                </textField>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="gl3-LO-E79">
+                    <rect key="frame" x="168" y="293" width="264" height="40"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <textInputTraits key="textInputTraits" autocorrectionType="no" secureTextEntry="YES"/>
+                </textField>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LEK-JV-5RU">
+                    <rect key="frame" x="168" y="373" width="264" height="40"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                    <state key="normal" title="Sign In"/>
+                    <connections>
+                        <action selector="signinAction:" destination="-1" eventType="touchUpInside" id="a5a-RV-LP7"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vkV-Gk-osV">
+                    <rect key="frame" x="168" y="427" width="264" height="40"/>
+                    <state key="normal" title="Sign Up">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="signupAction:" destination="-1" eventType="touchUpInside" id="eUV-vZ-0wn"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oQJ-56-kzA">
+                    <rect key="frame" x="168" y="493" width="264" height="40"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <state key="normal" title="Forget your password">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="forgetPassAction:" destination="-1" eventType="touchUpInside" id="ykK-gG-55y"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SIGN IN TO YOUR ACCOUNT" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MIB-3E-oaI">
+                    <rect key="frame" x="188" y="179" width="224" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="0.31764705882352939" green="0.58039215686274503" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="gl3-LO-E79" firstAttribute="top" secondItem="b5D-gA-3LE" secondAttribute="bottom" constant="24" id="06v-T0-aGh"/>
+                <constraint firstItem="oQJ-56-kzA" firstAttribute="top" secondItem="vkV-Gk-osV" secondAttribute="bottom" constant="30" id="2Zj-oB-uEm"/>
+                <constraint firstItem="vkV-Gk-osV" firstAttribute="width" secondItem="b5D-gA-3LE" secondAttribute="width" id="4Zz-5W-9eP"/>
+                <constraint firstAttribute="bottom" secondItem="8PJ-lJ-UbJ" secondAttribute="bottom" multiplier="9:2" id="59U-4A-nSb"/>
+                <constraint firstAttribute="bottom" secondItem="oQJ-56-kzA" secondAttribute="bottom" multiplier="9:8" id="9P7-vR-yS0"/>
+                <constraint firstItem="LEK-JV-5RU" firstAttribute="width" secondItem="b5D-gA-3LE" secondAttribute="width" id="F71-4l-cM3"/>
+                <constraint firstItem="MIB-3E-oaI" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="Itc-T8-N2S"/>
+                <constraint firstItem="gl3-LO-E79" firstAttribute="height" secondItem="b5D-gA-3LE" secondAttribute="height" id="Pgn-dr-zal"/>
+                <constraint firstItem="oQJ-56-kzA" firstAttribute="height" secondItem="b5D-gA-3LE" secondAttribute="height" id="RcW-QO-UDR"/>
+                <constraint firstItem="b5D-gA-3LE" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="SQu-xH-uiW"/>
+                <constraint firstItem="gl3-LO-E79" firstAttribute="width" secondItem="b5D-gA-3LE" secondAttribute="width" id="SbN-d5-Yx4"/>
+                <constraint firstItem="LEK-JV-5RU" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="Ulg-7m-chk"/>
+                <constraint firstAttribute="bottom" secondItem="vkV-Gk-osV" secondAttribute="bottom" multiplier="9:7" id="UnE-jW-Zcn"/>
+                <constraint firstItem="oQJ-56-kzA" firstAttribute="height" secondItem="b5D-gA-3LE" secondAttribute="height" id="Wcz-hg-o00"/>
+                <constraint firstItem="vkV-Gk-osV" firstAttribute="top" secondItem="LEK-JV-5RU" secondAttribute="bottom" constant="24" id="YgP-3D-IS0"/>
+                <constraint firstItem="gl3-LO-E79" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="cD9-4t-xAs"/>
+                <constraint firstItem="8PJ-lJ-UbJ" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="58" id="ccb-zL-Gyr"/>
+                <constraint firstItem="oQJ-56-kzA" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="dAi-FB-PFV"/>
+                <constraint firstItem="LEK-JV-5RU" firstAttribute="top" secondItem="gl3-LO-E79" secondAttribute="bottom" constant="24" id="eOZ-fr-93n"/>
+                <constraint firstItem="vkV-Gk-osV" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="f1x-ja-fkO"/>
+                <constraint firstItem="b5D-gA-3LE" firstAttribute="width" secondItem="i5M-Pr-FkT" secondAttribute="height" multiplier="2.2:5" id="fDW-1e-xvz"/>
+                <constraint firstItem="vkV-Gk-osV" firstAttribute="height" secondItem="b5D-gA-3LE" secondAttribute="height" id="iS4-l4-fp6"/>
+                <constraint firstAttribute="bottom" secondItem="gl3-LO-E79" secondAttribute="bottom" multiplier="9:5" id="kx3-8r-uvL"/>
+                <constraint firstItem="LEK-JV-5RU" firstAttribute="height" secondItem="b5D-gA-3LE" secondAttribute="height" id="p3L-UJ-Ovk"/>
+                <constraint firstAttribute="bottom" secondItem="MIB-3E-oaI" secondAttribute="bottom" multiplier="9:3" id="sCN-sM-F6x"/>
+                <constraint firstItem="8PJ-lJ-UbJ" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="waH-sb-uFb"/>
+                <constraint firstAttribute="bottom" secondItem="b5D-gA-3LE" secondAttribute="bottom" multiplier="9:4.2" id="xA0-yc-jA8"/>
+                <constraint firstItem="oQJ-56-kzA" firstAttribute="width" secondItem="b5D-gA-3LE" secondAttribute="width" id="xoe-5z-eng"/>
+                <constraint firstAttribute="bottom" secondItem="oQJ-56-kzA" secondAttribute="bottom" constant="20" id="yTn-Fr-uul"/>
+                <constraint firstAttribute="bottom" secondItem="LEK-JV-5RU" secondAttribute="bottom" multiplier="9:6.2" id="z1y-lf-AwF"/>
+            </constraints>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="ccb-zL-Gyr"/>
+                    <exclude reference="06v-T0-aGh"/>
+                    <exclude reference="eOZ-fr-93n"/>
+                    <exclude reference="YgP-3D-IS0"/>
+                    <exclude reference="2Zj-oB-uEm"/>
+                    <exclude reference="Wcz-hg-o00"/>
+                    <exclude reference="yTn-Fr-uul"/>
+                </mask>
+            </variation>
+        </view>
+    </objects>
+</document>
